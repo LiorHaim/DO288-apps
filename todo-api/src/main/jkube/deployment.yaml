@@ -1,0 +1,7 @@
+spec:
+  template:
+    spec:
+      cintainers:
+      - envFrom:
+        - configMapRef:
+            name: db-config
