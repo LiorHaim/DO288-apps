@@ -1,7 +1,7 @@
 spec:
   template:
     spec:
-      cintainers:
+      containers:
       - envFrom:
         - configMapRef:
             name: db-config
